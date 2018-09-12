@@ -10,6 +10,6 @@ public class FlightSearchResultsSteps extends FunctionalLibrary{
 
 	@Then("^The user should be in search results page$")
 	public void the_user_should_be_in_search_results_page() throws Throwable {
-		Assert.assertEquals("Flight Results : Find & Book Airline Tickets : Delta Air Lines", driver.getTitle());
+		Assert.assertEquals("Airline Tickets & Flights: Book Direct with Delta Air Lines - Official Site", driver.getTitle());
 	}
 }

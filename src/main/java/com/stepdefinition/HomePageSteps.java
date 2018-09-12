@@ -3,7 +3,6 @@ package com.stepdefinition;
 import java.util.List;
 import java.util.Set;
 
-import org.junit.Assert;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.support.ui.Select;
 
@@ -20,6 +19,7 @@ public class HomePageSteps extends FunctionalLibrary {
 	@Given("^The User is in Delta homepage$")
 	public void the_User_is_in_Delta_homepage() throws Throwable {
 		driver.get("https://www.delta.com/");
+		
 	}
 
 	@When("^The user enters source and destination$")
